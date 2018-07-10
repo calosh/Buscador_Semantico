@@ -12,7 +12,9 @@ from snips_prueba import pregunta, consulta_sparql
 
 import telebot
 
-bot = telebot.TeleBot("579712633:AAEBY8HSwTxf01ZmHf80Z7cy6QOCT1pKxzM")
+from pruebas.clave import clave
+
+bot = telebot.TeleBot(clave)
 
 
 @bot.message_handler(commands=['start', 'help'])
