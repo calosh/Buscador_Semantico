@@ -1,0 +1,304 @@
+{
+  "entities": {
+    "enfermedad": {
+      "automatically_extensible": true, 
+      "data": [
+        {
+          "synonyms": [], 
+          "value": "Neumon\u00eda"
+        }, 
+        {
+          "synonyms": [
+            " tos"
+          ], 
+          "value": "Gripe"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Reumatismo"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Paludismo"
+        }, 
+        {
+          "synonyms": [
+            " Dolor de huesos"
+          ], 
+          "value": "Dolores de los huesos"
+        }, 
+        {
+          "synonyms": [
+            " dolor muscular"
+          ], 
+          "value": "Dolores musculares"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Afecciones del ri\u00f1\u00f3n"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Afecciones del h\u00edgado"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Infecciones respiratorias"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Sarampi\u00f3n"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Afecciones del sistema nervioso"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Escorbuto"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Salpullidos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Inflamaciones de los ri\u00f1ones"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Fiebre"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Dolores en el pecho"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Caspa"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Problemas dermatol\u00f3gicos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Sarpullidos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Empeines"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Inflamaciones por golpes"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Mal de ojo"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Mal aire"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Dolores artr\u00edticos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Dolores reum\u00e1ticos"
+        }, 
+        {
+          "synonyms": [
+            " golpe"
+          ], 
+          "value": "Golpes"
+        }, 
+        {
+          "synonyms": [
+            " calambre"
+          ], 
+          "value": "Calambres"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Gangrena"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Gastritis"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Resfr\u00edo"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Nervios"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Ri\u00f1ones inflamados"
+        }, 
+        {
+          "synonyms": [
+            " dolores de cabeza"
+          ], 
+          "value": "Dolor de cabeza"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Insomnio"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Sinusitis"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Inflamaciones en los ojos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Resaca"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Calor al pecho"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Fracturas"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Resfr\u00edo de huesos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Dolores articulares"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Hinchazon"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Abscesos"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "Fatiga"
+        }
+      ], 
+      "use_synonyms": true
+    }
+  }, 
+  "intents": {
+    "enfermedad": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00bfQu\u00e9 es bueno para la "
+            }, 
+            {
+              "entity": "enfermedad", 
+              "slot_name": "enfermedad", 
+              "text": "gripe"
+            }, 
+            {
+              "text": "?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00bfQu\u00e9 hay para la "
+            }, 
+            {
+              "entity": "enfermedad", 
+              "slot_name": "enfermedad", 
+              "text": "gripe"
+            }, 
+            {
+              "text": "?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Dame algo para la "
+            }, 
+            {
+              "entity": "enfermedad", 
+              "slot_name": "enfermedad", 
+              "text": "gripe"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Dime que hay para la "
+            }, 
+            {
+              "entity": "enfermedad", 
+              "slot_name": "enfermedad", 
+              "text": "gripe"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00bfQu\u00e9 es plantas hay para la "
+            }, 
+            {
+              "entity": "enfermedad", 
+              "slot_name": "enfermedad", 
+              "text": "gripe"
+            }, 
+            {
+              "text": "?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00bfQu\u00e9 es plantas medicinales hay para la "
+            }, 
+            {
+              "entity": "enfermedad", 
+              "slot_name": "enfermedad", 
+              "text": "gripe"
+            }, 
+            {
+              "text": "?"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "\u00bfPuedes decirme que es bueno para la "
+            }, 
+            {
+              "entity": "enfermedad", 
+              "slot_name": "enfermedad", 
+              "text": "gripe"
+            }, 
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    }
+  }, 
+  "language": "es"
+}

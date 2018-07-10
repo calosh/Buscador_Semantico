@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <!--
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    -->
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/sticky-footer2.css' %}" rel="stylesheet">
+
+    <title>OIE</title>
+</head>
+<body>
+Extracción de la Información
+    <form method="post">{% csrf_token %}
+        <div class="form-group">
+            <label for="consulta"></label>
+            <textarea name = "consulta" class="form-control" id="consulta" rows="10">La Universidad Técnica Particular de Loja es una Institución educatica del Ecuador.</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+
+    </form>
+
+
+
+<p id="inputText">{{texto|safe}}</p>
+
+
+
+</body>
+
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</html>
+
+
+
+
+

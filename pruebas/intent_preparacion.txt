@@ -1,0 +1,5 @@
+¿Cómo se prepara esta [preparacion:preparacion](planta)?
+¿Cómo se usa esta [preparacion:preparacion](planta)?
+
+¿Cómo se prepara la planta [preparacion:preparacion](tilo)?
+¿Cómo se usa la planta [preparacion:preparacion](tilo)?
