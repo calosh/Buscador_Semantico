@@ -26,5 +26,9 @@ urlpatterns = [
 
     # Extraccion de la informacion
     url(r'^anotador/$', views.extraccion_informacion, name="anotador"),
+    url(r'^buscador_skos/$', views.buscador_skos, name="buscador_skos"),
 
+
+    url(r'^visualizador/$', views.visualizador, name="visualizador"),
+    url(r'^visualizador2/$', views.visualizador2, name="visualizador2"),
 ]

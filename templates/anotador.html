@@ -31,8 +31,9 @@
         Ingrese texto a procesar:
     <form method="post">{% csrf_token %}
         <div class="form-group">
-            <label for="consulta"></label>
-            <textarea name = "consulta" class="form-control" id="consulta" rows="10">La Universidad Técnica Particular de Loja es una Institución educatica del Ecuador.</textarea>
+            <label></label>
+            <textarea name = "consulta" class="form-control" rows="10">{{consulta}}</textarea>
+
         </div>
 
         <button type="submit" class="btn btn-primary">Consultar</button>
@@ -60,7 +61,7 @@
                     </td>
                     <td>
                         {% for j in i.1 %}
-                            {{j}}<br>
+                        <a href="{{j}}">{{j}}</a><br>
                         {% endfor %}
                     </td>
 

@@ -193,6 +193,11 @@
         }
       ], 
       "use_synonyms": true
+    }, 
+    "saludo": {
+      "automatically_extensible": true, 
+      "data": [], 
+      "use_synonyms": true
     }
   }, 
   "intents": {
@@ -294,6 +299,43 @@
             }, 
             {
               "text": "?"
+            }
+          ]
+        }
+      ]
+    }, 
+    "saludo": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "saludo", 
+              "slot_name": "saludo", 
+              "text": "Hola"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "entity": "saludo", 
+              "slot_name": "saludo", 
+              "text": "Hola"
+            }, 
+            {
+              "text": " como estas"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "entity": "saludo", 
+              "slot_name": "saludo", 
+              "text": "Hola"
+            }, 
+            {
+              "text": " que tal"
             }
           ]
         }

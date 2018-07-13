@@ -7,8 +7,22 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 
-lista1 = ["Loja", "Ecuaodr"]
-lista2 = [[1,2,3,3],[4,1,2,3,1]]
+cadena = """
+SELECT * WHERE{
+?especie skos:prefLabel "Verbena litoralis Kunth." .
+?especie skos:related ?related .
+?related skos:broader <http://plantas_medicinales.org/planta/usos> .
+?related skos:prefLabel ?nameUso .
+}
+"""
 
-
-print(zip(lista1, lista2))
+print(cadena)
+cadena = """
+SELECT * WHERE{
+?especie skos:prefLabel "%s" .
+?especie skos:related ?related .
+?related skos:broader <http://plantas_medicinales.org/planta/usos> .
+?related skos:prefLabel ?nameUso .
+}
+""" %("Hola")
+print(cadena)

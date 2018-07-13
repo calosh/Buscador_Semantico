@@ -12,7 +12,7 @@ snips_nlu.load_resources("es")
 
 '''
 1)
-(venv) calosh@chigo ~/PycharmProjects/SBC/pruebas $ snips-nlu generate-dataset es entity_enfermedad.txt intent_enfermedad.txt > dataset.json
+(venv) calosh@chigo ~/PycharmProjects/SBC/chatbot $ snips-nlu generate-dataset es intent_enfermedad.txt intent_saludo.txt entity_enfermedad.txt > dataset.json
 
 2) Ejecutar Entrenamiento
 

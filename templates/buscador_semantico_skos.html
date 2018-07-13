@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Buscador de Plantas medicinales</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/sticky-footer2.css' %}" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Plantas Medicinales de la zona andina de la provincia de Loja</h1>
+      </div>
+      <p class="lead">El uso de las plantas como alternativa de alivio de dolencias en la salud del hombre y sus animales
+domésticos en las zonas rurales del Ecuador y particularmente en la provincia de Loja aún se mantiene
+y, en algunas zonas es muy arraigada, única y eficiente.</p>
+
+        <form method="POST">
+    {% csrf_token %}
+
+        <div class="form-group">
+            <h2>Plantas medicinales: </h2>
+
+          <label for="sel1">Seleccione planta medicinal para formar el grafo:</label>
+          <select class="form-control" id="sel1" name="lista">
+              <option value="---Seleccione Enfermedad---">--- Seleccione Planta medicinal ---</option>
+            {% for i in datos %}
+          <option name="{{i}}" value="{{i}}">{{i}}</option>
+            {% endfor %}
+          </select>
+        </div>
+            <input type="submit" value="Submit" />
+
+        </form>
+
+        <div>
+            <h2>Plantas medicinales</h2>
+
+            <div id="plantas">
+
+            </div>
+        </div>
+
+
+
+        <br>
+        <br>
+       <a href="{% url 'index' %}" class="btn btn-success">Retroceder</a>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">cxtacuri@utpl.edu.ec</p>
+      </div>
+    </footer>
+
+
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,3 @@
+[saludo:saludo](Hola)
+[saludo:saludo](Hola) como estas
+[saludo:saludo](Hola) que tal
