@@ -1,0 +1,22 @@
+
+@python:S108+")Either remove or fill this block of code.(ã‘Û¾
+6python:S125"Remove this commented out code.(…È—À
+;python:S125j"Remove this commented out code.(åİ„ıÿÿÿÿ
+6python:S125"Remove this commented out code.(…g
+<python:S125“"Remove this commented out code.(×¼öŠûÿÿÿÿ
+<python:S125š"Remove this commented out code.(ÈåñŒûÿÿÿÿ
+7python:S125¼"Remove this commented out code.(Ó”Ÿ›
+rpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.(ÿì„˜ıÿÿÿÿ
+Fpython:S1481š"-Remove the unused local variable "list_dict".(ÓŸ§
+Cpython:S1481Ø"*Remove the unused local variable "datos2".(•¨æ
+Apython:S1481×")Remove the unused local variable "datos".(õ÷f
+tpython:S117Ú"\Rename this local variable "broaderName" to match the regular expression ^[_a-z][a-z0-9_]*$.(‘íêŸ
+vpython:S117î"YRename this local variable "datosUso" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÜÒıµüÿÿÿÿ
+|python:S117ƒ"_Rename this local variable "nombresComunes" to match the regular expression ^[_a-z][a-z0-9_]*$.(§ƒã¶şÿÿÿÿ
+zpython:S117Ÿ"]Rename this local variable "nombrePlanta" to match the regular expression ^[_a-z][a-z0-9_]*$.(³ü´˜ûÿÿÿÿ
+upython:S117»"]Rename this local variable "nombrePlanta" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÜÀœ›
+tpython:S117Ë"\Rename this local variable "broaderName" to match the regular expression ^[_a-z][a-z0-9_]*$.(‘íêŸ
+vpython:S117ß"YRename this local variable "datosUso" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÜÒıµüÿÿÿÿ
+|python:S117ô"_Rename this local variable "nombresComunes" to match the regular expression ^[_a-z][a-z0-9_]*$.(§ƒã¶şÿÿÿÿ
+upython:S117ˆ"]Rename this local variable "otrasPlantas" to match the regular expression ^[_a-z][a-z0-9_]*$.(­ƒìÀ
+Ypython:PrintStatementUsage³"-Replace print statement by built-in function.(¯Ûâúúÿÿÿÿ

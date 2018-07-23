@@ -4,7 +4,11 @@
       "automatically_extensible": true, 
       "data": [
         {
-          "synonyms": [], 
+          "synonyms": [
+            " pulmon\u00eda", 
+            " bronconeumon\u00eda", 
+            " pasmo"
+          ], 
           "value": "Neumon\u00eda"
         }, 
         {
@@ -194,6 +198,22 @@
       ], 
       "use_synonyms": true
     }, 
+    "foto": {
+      "automatically_extensible": true, 
+      "data": [
+        {
+          "synonyms": [
+            " imagen"
+          ], 
+          "value": "foto"
+        }, 
+        {
+          "synonyms": [], 
+          "value": "planta"
+        }
+      ], 
+      "use_synonyms": true
+    }, 
     "saludo": {
       "automatically_extensible": true, 
       "data": [], 
@@ -237,6 +257,18 @@
           "data": [
             {
               "text": "Dame algo para la "
+            }, 
+            {
+              "entity": "enfermedad", 
+              "slot_name": "enfermedad", 
+              "text": "gripe"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Dame algo para el "
             }, 
             {
               "entity": "enfermedad", 
@@ -299,6 +331,91 @@
             }, 
             {
               "text": "?"
+            }
+          ]
+        }
+      ]
+    }, 
+    "foto": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Dame una "
+            }, 
+            {
+              "entity": "foto", 
+              "slot_name": "foto", 
+              "text": "foto"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Muestrame la "
+            }, 
+            {
+              "entity": "foto", 
+              "slot_name": "foto", 
+              "text": "planta"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Muestrame una "
+            }, 
+            {
+              "entity": "foto", 
+              "slot_name": "foto", 
+              "text": "foto"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Quiero ver la "
+            }, 
+            {
+              "entity": "foto", 
+              "slot_name": "foto", 
+              "text": "planta"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Enviame la "
+            }, 
+            {
+              "entity": "foto", 
+              "slot_name": "foto", 
+              "text": "foto de la planta"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "text": "Como es la "
+            }, 
+            {
+              "entity": "foto", 
+              "slot_name": "foto", 
+              "text": "planta"
+            }
+          ]
+        }, 
+        {
+          "data": [
+            {
+              "entity": "foto", 
+              "slot_name": "foto", 
+              "text": "Como es"
             }
           ]
         }

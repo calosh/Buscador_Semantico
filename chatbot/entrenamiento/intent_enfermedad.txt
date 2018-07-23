@@ -1,7 +1,9 @@
 ¿Qué es bueno para la [enfermedad:enfermedad](gripe)?
 ¿Qué hay para la [enfermedad:enfermedad](gripe)?
 Dame algo para la [enfermedad:enfermedad](gripe)
+Dame algo para el [enfermedad:enfermedad](gripe)
 Dime que hay para la [enfermedad:enfermedad](gripe)
+
 ¿Qué es plantas hay para la [enfermedad:enfermedad](gripe)?
 ¿Qué es plantas medicinales hay para la [enfermedad:enfermedad](gripe)?
 ¿Puedes decirme que es bueno para la [enfermedad:enfermedad](gripe)?

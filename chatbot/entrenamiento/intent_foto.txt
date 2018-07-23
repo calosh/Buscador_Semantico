@@ -1,0 +1,7 @@
+Dame una [foto:foto](foto)
+Muestrame la [foto:foto](planta)
+Muestrame una [foto:foto](foto)
+Quiero ver la [foto:foto](planta)
+Enviame la [foto:foto](foto de la planta)
+Como es la [foto:foto](planta)
+[foto:foto](Como es)

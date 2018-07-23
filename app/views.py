@@ -22,8 +22,8 @@ from django.http import HttpResponse, JsonResponse
 
 # Create your views here.
 import spacy
-nlp = spacy.load('es_core_news_md')
-#nlp = spacy.load('es', disable=['parse',"ner"])
+#nlp = spacy.load('es_core_news_md')
+nlp = spacy.load('es', disable=['parse',"ner"])
 sparql = SPARQLWrapper("http://dbpedia.org/sparql/")
 
 
@@ -571,3 +571,6 @@ def grafico_nodos(consulta):
     print(link)
 
     return {'node':node, 'link':link}
+
+
+from textacy.similarity import word_movers

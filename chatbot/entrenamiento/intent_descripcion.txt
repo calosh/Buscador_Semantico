@@ -1,0 +1,3 @@
+Dame una [desc:desc](descripción)
+[desc:desc](Describeme) la planta
+Muestrame una [desc:desc](descripción)
